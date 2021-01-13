@@ -20,6 +20,10 @@ body {
   background-position: bottom;
   background-size: cover;
 }
+.header__title{
+  color: aliceblue;
+  font-weight: bold;
+}
 .header__link {
   color: aliceblue;
   font-weight: bold;
