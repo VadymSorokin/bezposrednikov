@@ -1,0 +1,80 @@
+body {
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  padding: 15px 0 0 0;
+  background-color: lightblue;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1170px;
+}
+
+.header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: bisque;
+  background-image: url(../source/altair3bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+.header__link {
+  color: aliceblue;
+  font-weight: bold;
+}
+.header__wrapper {
+  padding: 15px;
+  border: 1px solid azure;
+  background-color: rgba(218, 218, 218, 0.7);
+}
+.header__text {
+  color: #0c0101;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: inset;
+}
+
+.main__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.main__block_picture {
+  margin: 15px;
+  padding: 30px;
+}
+.main__block_img {
+  max-width: 150px;
+  height: 100%;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+.main__block_img:hover {
+  z-index: 1;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.footer {
+  border: 1px dotted rgba(218, 218, 218, 0.7);
+  min-height: 30px;
+  background-color: rgba(142, 153, 156, 0.856);
+}
+.footer__credits {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+.footer__link {
+  color: aliceblue;
+  font-size: 10px;
+  text-align: center;
+}
