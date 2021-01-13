@@ -78,3 +78,8 @@ body {
   font-size: 10px;
   text-align: center;
 }
+@media (max-width:516px){
+	.header{
+		display: inline-block;
+	}
+}
